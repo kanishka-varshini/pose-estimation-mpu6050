@@ -9,7 +9,7 @@ from ahrs.filters import Madgwick
 
 
 #mpu6050 node to publish the mpu data
-#output msg format is String
+#output msg format is Pose
 class MPU6050Publisher(Node):
     def __init__(self):
         super().__init__('mpu6050_publisher')
